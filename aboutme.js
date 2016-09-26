@@ -8,4 +8,23 @@ $(document).ready(function() {
 
 	});
 
+//start of mouseover
+
+$(".mousechange").mouseenter (function() {
+	
+	$(this).css("font-size","2.5em");
+	$(this).css("color","#b366ff");
+
+
+});
+
+$(".mousechange").mouseleave (function() {
+	
+	$(this).css("font-size","2em");
+	$(this).css("color","#006699");
+
+
+});
+
+
 });
