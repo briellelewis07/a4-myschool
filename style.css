@@ -1,0 +1,45 @@
+body {
+	background-color: #ccffff;
+
+}
+
+#banner {
+	color: #3399ff;
+	text-align: center;
+	 background: radial-gradient(#ffccff, #ff80aa, #ccffcc);
+	
+}
+
+#bannerpic {
+	float: right;
+	border-style: ridge;
+	border-width: 10px;
+	border-color: #ffcccc; 
+	padding: 10px;
+	box-shadow: 10px 5px 5px #99ccff;
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-bottom: 25px;
+	margin-top: 25px;
+	
+}
+
+.floatclear {
+	
+	clear: both;
+}
+
+#aboutme {
+	background-color: #ccffff;
+	color: #006699;
+	font-size: 1.25em;
+	border-radius: 12px;
+	border: 3px solid #006699;
+
+	width: 125px;
+	
+}
+
+#aboutme:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
